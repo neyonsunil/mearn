@@ -1,0 +1,113 @@
+       HTML
+    ----------
+- HyperText Markup Language
+- Used to create the Structure of a web page/ Skelton of a webpage
+- CSS is used to style this Skelton
+
+
+Difference between Markup Language and Programming Language
+-----------------------------------------------------------
+Markup Language:
+  - to create the Structure of a webpage and design It
+  - browser can be used to run It
+  - it is also called tag based language because different tags are used to design the webpage
+    <p>  <head>  <body>  <li>
+  eg: HTML, XML,SGML
+
+Programming Language:
+   - used to perform logical operations
+   - to give some instructions to computer inorder to perform some tasks
+   - need a compiler to run
+   eg: Java, Javascript 
+
+
+   Different types of tags
+   -----------------------
+1) Opening tags
+     <tagname>
+2) Closing tags
+     </tagname>
+3) Self Closing tags
+     <tagname/>
+
+** Extension used for html file is .html **
+** to format code in vs code: shift + Alt + F
+** to comment a text: 
+                    1) control + /
+                    2) Shift + Alt + A
+
+Basic tags
+----------
+Basic html page Structure:
+<html>
+   <head>
+         //configuration, title, importing styles, importing google fonts, js code
+   </head>
+
+   <body>
+         //this part is visible to the user
+       //heading paragraph images videos
+   </body>
+</html>
+
+** to load basic Structure of html page shortcut: shift + ! -> select !
+
+
+1) a: anchor tag - to add links in html page
+      target=:_blank" : to open new page for the link
+
+2) h1 to h6 : for giving heading
+     h1 - biggest size
+     h6 - smallest size
+
+3) p - to add paragraph
+
+4) br - to break the line
+
+5) sup: superscript - to add superscript
+
+6) sub: subscript - to add subscript
+
+7) video - to add video in html page
+
+8) audio - to add audio in html page
+
+9) hr: horizontal tag - to add a horizontal line
+
+10) img - to add an images , alt: to provide some text to user if image is not loaded
+
+11) figure - to display an image and its caption (figurecaption tag is used to give caption)
+
+12) iframe - to place youtube videos, google maps, etc
+
+13) list:
+        ordered list (ol):- list items with numbering (1 , i , I , A , a )
+
+        unordered list (ul):- list items with bulletin
+
+14) table - to display items in table like Structure
+           table must be enclosed in <table>  </table>
+           tr: is used to create table row
+           th: is used to create table heading 
+           td: is used to create table data
+
+15) form - used to create forms
+           form must be enclosed in <form> </form>
+     label: to display text related to that particular input field
+     <input type="text"> : for input field
+     <input type="password"> : for input password field     
+
+     Different input Types:
+     ----------------------
+     text
+     password
+     textarea: <textarea>  </textarea>
+     number
+     email
+     tel
+     date
+     file
+     radio: for selecting only one value, we group every radio button by same name attribute
+     checkbox
+     for dropdown: <select>  <option>  </option>  </select>
+     
